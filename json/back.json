@@ -1,0 +1,162 @@
+[
+        {
+            "genus": "Ptiloris",
+            "subgenus": "Craspedophora",
+            "name": "Magnificent riflebird",
+            "Scientific_name": "Ptiloris magnificus",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Ptiloris",
+            "subgenus": "Ptiloris",
+            "name": "Growling riflebird",
+            "Scientific_name": "Ptiloris intercedens",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Ptiloris",
+            "subgenus": "Ptiloris",
+            "name": "Paradise riflebird",
+            "Scientific_name": "Ptiloris paradiseus",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Ptiloris",
+            "subgenus": "Ptiloris",
+            "name": "Victoria's riflebird",
+            "Scientific_name": "Ptiloris victoriae",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Epimachus",
+            "subgenus": "Ptiloris",
+            "name": "Black sicklebill",
+            "Scientific_name": "Epimachus fastuosus",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Epimachus",
+            "subgenus": "Ptiloris",
+            "name": "Brown sicklebill",
+            "Scientific_name": "Epimachus meyeri",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Drepanornis",
+            "subgenus": "Ptiloris",
+            "name": "Black-billed sicklebill",
+            "Scientific_name": "Drepanornis albertisi",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Drepanornis",
+            "subgenus": "Ptiloris",
+            "name": "Pale-billed sicklebill",
+            "Scientific_name": "Drepanornis bruijnii",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Cicinnurus",
+            "subgenus": "Diphyllodes",
+            "name": "Magnificent bird-of-paradise",
+            "Scientific_name": "Cicinnurus magnificus",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Cicinnurus",
+            "subgenus": "Diphyllodes",
+            "name": "Wilson's bird-of-paradise",
+            "Scientific_name": "Cicinnurus respublica",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Cicinnurus",
+            "subgenus": "Cicinnurus",
+            "name": "King bird-of-paradise",
+            "Scientific_name": "Cicinnurus regius",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Semioptera",
+            "subgenus": "Cicinnurus",
+            "name": "Standardwing",
+            "Scientific_name": "Semioptera wallacii",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Seleucidis",
+            "subgenus": "Cicinnurus",
+            "name": "Twelve-wired bird-of-paradise",
+            "Scientific_name": "Seleucidis melanoleucus",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Paradisaea",
+            "subgenus": "Paradisaea",
+            "name": "Lesser bird-of-paradise",
+            "Scientific_name": "Paradisaea minor",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Paradisaea",
+            "subgenus": "Paradisaea",
+            "name": "Greater bird-of-paradise",
+            "Scientific_name": "Paradisaea apoda",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Paradisaea",
+            "subgenus": "Paradisaea",
+            "name": "Raggiana bird-of-paradise",
+            "Scientific_name": "Paradisaea raggiana",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Paradisaea",
+            "subgenus": "Paradisaea",
+            "name": "Goldie's bird-of-paradise",
+            "Scientific_name": "Paradisaea decora",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Paradisaea",
+            "subgenus": "Paradisaea",
+            "name": "Red bird-of-paradise",
+            "Scientific_name": "Paradisaea rubra",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Paradisaea",
+            "subgenus": "Paradisaea",
+            "name": "Emperor bird-of-paradise",
+            "Scientific_name": "Paradisaea guilielmi",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Paradisaea",
+            "subgenus": "Paradisornis",
+            "name": "Blue bird-of-paradise",
+            "Scientific_name": "Paradisaea rudolphi",
+            "distribute": " ",
+            "description": " "
+        }
+]

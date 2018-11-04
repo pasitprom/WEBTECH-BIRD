@@ -1,0 +1,163 @@
+[
+        {
+            "genus": "Lycocorax",
+            "name": "Paradise-crow",
+            "Scientific_name": "Lycocorax pyrrhopterus",
+            "distribute": "ถูกค้นพบครั้งแรกโดยนักธรรมชาติวิทยาชางฝรั่งเศสชื่อ René-Primevère Lesson ถิ่นอาศัยอยู่ตามที่ราบลุ่มป่าฝนในเกาะนิวกินี ตามแถบแม่น้ำ ชายป่า ป่าพรุ และเกาะอื่นรอบๆ\r\nเป็นนกที่หากินตอนกลางวัน มักจะบินตัวเดียวหรือบินเป็นคู่ น้อยที่จะพบเห็นบินเป็นกลุ่ม ใช้เวลาส่วนใหญ่ไปกับการหาอารหาร กินผลไม้ ผลมะเดื่อ และแมลงเป็นหลัก",
+            "description": "ลักษณะ มีความยาวตัวประมาณ 42ซม. ขนดำเงา เหลือบสะท้อนเขียว น้ำเงินและม่วง นัยน์ตาสีแดง จะงอยปากสีดำ มีขนหางยาว ตัวผู้และตัวเมียมีลักษณะคล้ายกัน ตัวเมียจะมีขนาดเล็กกว่าตัวผู้เล็กน้อย"
+        },
+        {
+            "genus": "Manucodia",
+            "name": "Glossy-mantled manucode",
+            "Scientific_name": "Manucodia ater",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Manucodia",
+            "name": "Jobi manucode",
+            "Scientific_name": "Manucodia jobiensis",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Manucodia",
+            "name": "Crinkle-collared manucode",
+            "Scientific_name": "Manucodia chalybatus",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Manucodia",
+            "name": "Curl-crested manucode",
+            "Scientific_name": "Manucodia comrii",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Phonygammus",
+            "name": "Trumpet manucode",
+            "Scientific_name": "Phonygammus keraudrenii",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Paradigalla",
+            "name": "Long-tailed paradigalla",
+            "Scientific_name": "Paradigalla carunculata",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Paradigalla",
+            "name": "Short-tailed paradigalla",
+            "Scientific_name": "Paradigalla brevicauda",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Astrapia",
+            "name": "Arfak astrapia",
+            "Scientific_name": "Astrapia nigra",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Astrapia",
+            "name": "Splendid astrapia",
+            "Scientific_name": "Astrapia splendidissima",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Astrapia",
+            "name": "Ribbon-tailed astrapia",
+            "Scientific_name": "Astrapia mayeri",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Astrapia",
+            "name": "Princess Stephanie's astrapia",
+            "Scientific_name": "Astrapia stephaniae",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Astrapia",
+            "name": "Huon astrapia",
+            "Scientific_name": "Astrapia rothschildi",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Parotia",
+            "name": "Western parotia",
+            "Scientific_name": "Parotia sefilata",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Parotia",
+            "name": "Queen Carola's parotia",
+            "Scientific_name": "Parotia carolae",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Parotia",
+            "name": "Bronze parotia",
+            "Scientific_name": "Parotia berlepschi",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Parotia",
+            "name": "Lawes's parotia",
+            "Scientific_name": "Parotia lawesii",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Parotia",
+            "name": "Eastern parotia",
+            "Scientific_name": "Parotia helenae",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Parotia",
+            "name": "Wahnes's parotia",
+            "Scientific_name": "Parotia wahnesi",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Pteridophora",
+            "name": "King of Saxony bird-of-paradise",
+            "Scientific_name": "Pteridophora alberti",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Lophorina",
+            "name": "Greater lophorina",
+            "Scientific_name": "Lophorina superba",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Lophorina",
+            "name": "Crescent-caped lophorina",
+            "Scientific_name": "Lophorina niedda",
+            "distribute": " ",
+            "description": " "
+        },
+        {
+            "genus": "Lophorina",
+            "name": "Lesser lophorina",
+            "Scientific_name": "Lophorina minor",
+            "distribute": " ",
+            "description": " "
+        },
+]

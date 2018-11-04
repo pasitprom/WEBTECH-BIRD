@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bird-of-paradise</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <script src="scroll.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
+
+
+</head>
+<body>
+    <button onclick="topFunction()" id="topbtn" title="Go to top">Top</button>
+    <img src="pic/logo/logo.png" width="150px" id="logo">
+   <div class="navbar">
+       <a href="index.html">หน้าแรก</a>
+       <a href="gallery.html">แกลเลอร์รี่</a>
+       <a href="about.html">เกี่ยวกับ</a>
+       <a href="contact.html">ติดต่อ</a>
+       <a href="genus.html">สายพันธ์นก</a>
+        <div class="dropdown">
+        <button class="dropbtn">Dropdown 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="info1.html">Link 1</a>
+          <a href="info2.html">Link 2</a>
+          <a href="info3.html">Link 3</a>
+        </div>
+      </div> 
+    </div>
+    <div class="info1">
+        <h1 style="text-align: center; font-size: 40px;">Paradigalla</h1>
+        <table style="padding-bottom: 10px;">
+            <!--nok1-->
+            <tr id = Glossy-mantled>
+                <td style="padding: 20px;">
+                    <img src="pic/nok/Long-tailed.jpg" width="450px">
+                    <p id="nok6"></p>
+                </td>
+                <td id="tableinfo">
+                    <b>long-tailed paradigalla (Paradigalla carunculata)</b> อาศัยอยู่แถบปาปัวตะวันตก ประเทศอินโดนีเซียและ เขาอาร์ฟัค
+                    <br><br>
+                    <b>ลักษณะ :</b> เป็นนกที่มีขนาดใหญ่โดยเฉลี่ยมีขนาดประมาณ 37ซม. ขนตัวสีดำมีหางยาว จุดที่มีสีสันบนตัวมีแค่ที่เดียวคือหงอนลักษณะสีเหลือง สีแดง และสีฟ้าท้องฟ้าที่อยู่ใกล้จะงอยปาก ทั้งสองเพศมีลักษณะคล้ายกันแต่ตัวเมียจะมีขนาดเล็กกว่า
+                </td>
+            </tr>
+            <!--nok2-->
+            <tr>
+                <td id ="tableinfoleft">
+                    <b>short-tailed paradigalla (Paradigalla brevicauda)</b> สันนิษฐานว่าในตอนแรกนกชนิดนี้เป็นกที่จะจับคู่กับกับตัวเมียเพียงตัวเดียวแต่ปัจจุบันก็ได้เปลี่ยนวิธีจับคู่เป็นแบบตัวเมียหลายตัว ถิ่นอาศัยอยู่แถบที่ราบสูงในป่าของนิวกินี อาหารที่กินส่วนใหญ่จะเป็นแมลงแลพผลไม้
+                    <br><br>
+                    <b>ลักษณะ :</b> มีขนาดประมาณ 23ซม. มีขืองน้ำเงินนสีดำเข้มปกคลุมทั้งตัวและจะงอยปากสีดำทรงเรียว มีหงอนสีเหลืองสว่างและสีฟ้าอยู่บริเวณใต้ตา ตัวผู้และตัวเมียมีลักษณะคล้ายกันโดยตัวเมียจะมีขนาดเล็กกว่าและมีหงอนเล็กกว่าและขนหางที่สั้นกว่า
+
+                </td>
+                <td id="tableimg">
+                    <img src="pic/nok/short-tailed.jpg" width="450px">
+                    <p id="nok7"></p>
+                </td>
+            </tr>
+        </table>
+    </div>
+<script>
+    fetch('json/listj.json').then(resp=>resp.json()).then(text => {
+        console.log(text[0].name);
+
+        var txt = "";
+        for (j=6; j < 8; j++){
+            idd = text[j].name;
+            document.getElementById("nok" + j).innerHTML="<b>Genus:</b> "+(text[j].genus) 
+        + "<br><b>Name:</b> "+(text[j].name)
+        + "<br><b>Scientific name:</b> "+(text[j].Scientific_name);
+        }
+        
+
+    }).catch(err => {
+        console.warn(err);
+    })   
+    
+    let xhttp = new XMLHttpRequest()
+    xhttp.onreadystatechange = function(){
+    }
+</script>
+</body>
+</html>

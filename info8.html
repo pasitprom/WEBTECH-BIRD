@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bird-of-paradise</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <script src="scroll.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
+
+
+</head>
+<body>
+<button onclick="topFunction()" id="topbtn" title="Go to top">Top</button>
+<img src="pic/logo/logo.png" width="150px" id="logo">
+<div class="navbar">
+    <a href="index.html">หน้าแรก</a>
+    <a href="gallery.html">แกลเลอร์รี่</a>
+    <a href="about.html">เกี่ยวกับ</a>
+    <a href="contact.html">ติดต่อ</a>
+    <a href="genus.html">สายพันธ์นก</a>
+    <div class="dropdown">
+        <button class="dropbtn">Dropdown
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="info1.html">Link 1</a>
+            <a href="info2.html">Link 2</a>
+            <a href="info3.html">Link 3</a>
+        </div>
+    </div>
+</div>
+<div class="info1">
+    <h1 style="text-align: center; font-size: 40px;">Lophorina</h1>
+    <table style="padding-bottom: 10px;">
+        <!--nok1-->
+        <tr id=Glossy-mantled>
+            <td style="padding: 20px;">
+                <img src="pic/nok/Greater lophorina.jpg" width="450px">
+                <p id="nok20"></p>
+            </td>
+            <td id="tableinfo">
+                Greater lophorina หรือ Greater superb bird-of-paradise (Lophorina superba)
+                นกชนิดนี้กระจายตัวยู่ตามป่าฝนของนิวกินี
+                ถิ่นอาศัยของพวกมันส่วนใหญ่อยู่ตามป่าฝนหรือตามชายป่าในอินโดนิเซียและปาปานิวกินี
+                อาหารที่พวกมันกินส่วนใหญ่จะเป็นผลไม่และแมลงแต่ก็ยังกินพวกสัตว์อื่นๆด้วยเช่น กบ
+                กิ้งก่าและนกตัวเล็กๆ<br><br>
+                <b>ลักษณะ :</b> ขนาดลำตัวประมาณ 26ซม. ตัวผู้ขนบริเวณหัวมีลักษณะคล้ายมงกุฎเป็นสีเขียวสะท้อนแสง
+                ขนตรงอกเป็นสีเขียวน้ำเงิน และบริเวณหลังมีขนเป็นสีดำลักษณะคล้ายผ้าคลุมที่สามารถกางออกมาได้เพื่อใช้หาคู่
+                ลำตัวปกคลุมด้วยขนสีดำ ส่วสนตัวเมียขนลำตัวจะเป็นสีน้ำตาลแดง
+            </td>
+        </tr>
+        <!--nok2-->
+        <tr>
+            <td id="tableinfoleft">
+                Crescent-caped lophorina หรือ Vogelkop superb bird-of-paradise (Lophorina niedda)
+                นกชนิดนี้อาศัยอยู่แถบคาบสมุทรเบิร์ดเฮดในนิวกินี ถูกค้นพบครั้งแรกเมื่อปี 1930 โดย เอินส์ เมียร์
+                <br><br>
+                <b>ลักษณะ :</b> เป็นนกขนาดเล็กขนาดลำตัวไม่แน่ชัด ตัวผู้จะปกคลุมไปด้วยขนสีดำ
+                ขนของมันสามารถดูดซับแสงได้ถึง 95% มีขนด้านหลังลักษณะคล้ายผ้าคลุมสามารถกางออกมาได้เพื่อใช้ในการหาคู่
+                บริเวณอกมีขนลักษณะคล้ายโล่เป็นสีเขียวน้ำทะเลสะท้อนแสง
+            </td>
+            <td id="tableimg">
+                <img src="pic/nok/Crescent-caped lophorina.jpg" width="450px">
+                <p id="nok21"></p>
+            </td>
+        </tr>
+        <!--nok3-->
+        <tr id=Glossy-mantled>
+            <td style="padding: 20px;">
+                <img src="pic/nok/Lesser lophorin.jpg" width="450px">
+                <p id="nok22"></p>
+            </td>
+            <td id="tableinfo">
+                Lesser lophorina หรือ Lesser superb bird-of-paradise (Lophorina minor) นกชนิดนี้อาศัยอยู่ใน ปาปัวนิวกินี
+                เนื่องจากมันมีลักษณะคล้ายกับ Greater lophorina จึงมักถูกคิดว่าเป็นสปีชีส์ย่อยของ Greater lophorina
+            </td>
+        </tr>
+    </table>
+</div>
+<script>
+    fetch('json/listj.json').then(resp = > resp.json()
+    ).then(text = > {
+        console.log(text[0].name);
+
+    var txt = "";
+    for (j = 20; j < 23; j++) {
+        idd = text[j].name;
+        document.getElementById("nok" + j).innerHTML = "<b>Genus:</b> " + (text[j].genus)
+            + "<br><b>Name:</b> " + (text[j].name)
+            + "<br><b>Scientific name:</b> " + (text[j].Scientific_name);
+    }
+
+
+    }).catch(err = > {
+        console.warn(err);
+    })
+
+    let xhttp = new XMLHttpRequest()
+    xhttp.onreadystatechange = function () {
+    }
+</script>
+</body>
+</html>
