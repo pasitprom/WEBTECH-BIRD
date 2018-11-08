@@ -11,60 +11,55 @@
 
 </head>
 <body>
-    <button onclick="topFunction()" id="topbtn" title="Go to top">Top</button>
-    <img src="pic/logo/logo.png" width="150px" id="logo">
-   <div class="navbar">
-       <a href="index.html">หน้าแรก</a>
-       <a href="gallery.html">แกลเลอร์รี่</a>
-       <a href="about.html">เกี่ยวกับ</a>
-       <a href="contact.html">ติดต่อ</a>
-       <a href="genus.html">สายพันธ์นก</a>
-        <div class="dropdown">
-        <button class="dropbtn">Dropdown 
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="info1.html">Link 1</a>
-          <a href="info2.html">Link 2</a>
-          <a href="info3.html">Link 3</a>
-        </div>
-      </div> 
-    </div>
-    <div class="info1">
-        <h1 style="text-align: center; font-size: 40px;">Semioptera</h1>
-        <table style="padding-bottom: 10px;">
-            <!--nok1-->
-            <tr id = Glossy-mantled>
-                <td style="padding: 20px;">
-                    <img src="pic/nok/The standardwing.jpg" width="450px">
-                    <p id="nok34"></p>
-                </td>
-                <td id="tableinfo">
-                    The standardwing (Semioptera wallacii) หรือที่เป็นที่รู้จักในชื่อ Wallace’s standardwing
-                    มี่ที่อยู่อาศัยอยู่ที่ตอนเหนือของจังหวัดมาลูกูในฝั่งตะวันออกของประเทศอินโดนีเซีย และเกาะฮัลมาเฮรา เกาะบาแคน เกาะโมโรไต ตัวผู้1ตัวจะจับคู่กับตัวเมียหลายตัว มันมีวิธีสแดงออกถึงการหาคู่ที่งดงามกลางอากาศ โดยการกระโดดร่มด้วยปีกและอกสีเขียวสดใส โดยใช้ปีกกระพืออยู่ข้างหลัง   กินผลไม้ สัตว์ขาปล้อง และแมลงเป็นอาหารหลัก
-                    <br><br>
-                    <b>ลักษณะ :</b> เป็นนกขนาดกลาง ความยาวประมาณ 28 เซนติเมตร มีสีน้ำตาลมะกอก ตัวผู้มีสีม่วงที่หัว สีเขียวมรกตที่อก ลักษณะโดดเด่นที่สุดคือขนนกสีขาวยาวสองข้างที่ออกมาจากขอบของปีกที่สามารถยกขึ้นลงได้ตามความต้องการ ตัวเมียจะตัวเล็กกว่าแต่มีหางที่ยาวกว่า
-                </td>
-            </tr>
-        </table>
-    </div>
+<button onclick="topFunction()" id="topbtn" title="Go to top">Top</button>
+<img src="pic/logo/logo.png" width="150px" id="logo">
+<div class="navbar">
+    <a href="index.html">หน้าแรก</a>
+    <a href="about.html">เกี่ยวกับ</a>
+    <a href="contact.html">ติดต่อ</a>
+    <a href="genus.html">สายพันธ์นก</a>
+</div>
+<div class="info1">
+    <h1 style="text-align: center; font-size: 40px;">Semioptera</h1>
+    <table style="padding-bottom: 10px;">
+        <!--nok1-->
+        <tr id=Glossy-mantled>
+            <td style="padding: 20px;">
+                <img src="pic/nok/The standardwing.jpg" width="450px">
+                <p id="nok34"></p>
+            </td>
+            <td id="tableinfo">
+                The standardwing (Semioptera wallacii) หรือที่เป็นที่รู้จักในชื่อ Wallace’s standardwing
+                มี่ที่อยู่อาศัยอยู่ที่ตอนเหนือของจังหวัดมาลูกูในฝั่งตะวันออกของประเทศอินโดนีเซีย และเกาะฮัลมาเฮรา
+                เกาะบาแคน เกาะโมโรไต ตัวผู้1ตัวจะจับคู่กับตัวเมียหลายตัว มันมีวิธีสแดงออกถึงการหาคู่ที่งดงามกลางอากาศ
+                โดยการกระโดดร่มด้วยปีกและอกสีเขียวสดใส โดยใช้ปีกกระพืออยู่ข้างหลัง กินผลไม้ สัตว์ขาปล้อง
+                และแมลงเป็นอาหารหลัก
+                <br><br>
+                <b>ลักษณะ :</b> เป็นนกขนาดกลาง ความยาวประมาณ 28 เซนติเมตร มีสีน้ำตาลมะกอก ตัวผู้มีสีม่วงที่หัว
+                สีเขียวมรกตที่อก
+                ลักษณะโดดเด่นที่สุดคือขนนกสีขาวยาวสองข้างที่ออกมาจากขอบของปีกที่สามารถยกขึ้นลงได้ตามความต้องการ
+                ตัวเมียจะตัวเล็กกว่าแต่มีหางที่ยาวกว่า
+            </td>
+        </tr>
+    </table>
+</div>
 <script>
-             fetch('json/listj.json').then(resp=>resp.json()).then(text => {
+    fetch('json/listj.json').then(resp => resp.json()
+    ).then(text => {
         console.log(text[0].name);
-        var j = 34;
-        var txt = "";
-            document.getElementById("nok" + j).innerHTML="<b>Genus:</b> "+(text[j].genus) 
-        + "<br><b>Name:</b> "+(text[j].name)
-        + "<br><b>Scientific name:</b> "+(text[j].Scientific_name);
+    var j = 34;
+    var txt = "";
+    document.getElementById("nok" + j).innerHTML = "<b>Genus:</b> " + (text[j].genus)
+        + "<br><b>Name:</b> " + (text[j].name)
+        + "<br><b>Scientific name:</b> " + (text[j].Scientific_name);
 
-        
 
     }).catch(err => {
         console.warn(err);
-    })   
-    
+    })
+
     let xhttp = new XMLHttpRequest()
-    xhttp.onreadystatechange = function(){
+    xhttp.onreadystatechange = function () {
     }
 </script>
 </body>
